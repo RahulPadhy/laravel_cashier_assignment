@@ -26,18 +26,18 @@ This is a sample Laravel project using **Laravel Cashier (Stripe)** to display p
 
 ### 3. Environment Setup
 1. Copy .env.example to .env:
-- cp .env.example .env
+    - cp .env.example .env
 
 2. Update .env with your database and Stripe credentials:
-- DB_CONNECTION=mysql
-- DB_HOST=127.0.0.1
-- DB_PORT=3306
-- DB_DATABASE=your_db_name
-- DB_USERNAME=your_db_user
-- DB_PASSWORD=your_db_password
+    - DB_CONNECTION=mysql
+    - DB_HOST=127.0.0.1
+    - DB_PORT=3306
+    - DB_DATABASE=your_db_name
+    - DB_USERNAME=your_db_user
+    - DB_PASSWORD=your_db_password
 
-- STRIPE_KEY=pk_test_XXXX
-- STRIPE_SECRET=sk_test_XXXX
+    - STRIPE_KEY=pk_test_XXXX
+    - STRIPE_SECRET=sk_test_XXXX
 
 ### 4. Generate App Key
 php artisan key:generate
