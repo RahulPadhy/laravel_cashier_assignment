@@ -43,7 +43,7 @@ This is a sample Laravel project using **Laravel Cashier (Stripe)** to display p
 php artisan key:generate
 
 ### 5. Run Migrations & Seed Products
-php artisan migrate
+php artisan migrate, 
 php artisan db:seed
 > This will create the products table and insert 20 sample products.
 
